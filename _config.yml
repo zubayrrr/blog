@@ -18,7 +18,7 @@ defaults:
     scope:
       path: ""
     values:
-      bio: "My tiny island on the WWW \n
+      bio: "My tiny space on the internet \n
       Where I post musings, opinions, code, how-tos.
       "
       fields: # a table of info about the bio, like for other links
