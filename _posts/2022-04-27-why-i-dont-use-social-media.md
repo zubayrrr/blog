@@ -2,6 +2,7 @@
 title: Why I Don't Use Social Media
 date: "2022-04-26"
 tags: ["opinion", "privacy"]
+description: "My opinion on social media and why I choose to not use it."
 ---
 
 # DRAFT WIP

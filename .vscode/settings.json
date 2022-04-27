@@ -1,0 +1,11 @@
+{
+  "frontMatter.framework.id": "other",
+  "frontMatter.content.publicFolder": "",
+  "frontMatter.content.pageFolders": [
+    {
+      "title": "_posts",
+      "path": "[[workspace]]/_posts"
+    }
+  ],
+  "frontMatter.content.fmHighlight": true
+}

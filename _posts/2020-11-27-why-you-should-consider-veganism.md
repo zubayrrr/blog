@@ -1,9 +1,19 @@
 ---
 title: Why You Should Consider Veganism
-date: "2020-11-27"
-tags: ["veganism", "animals", "morality"]
+date: 2020-11-27
+tags:
+  - veganism
+  - animals
+  - morality
 author:
   handle: admin
+draft: false
+description:
+  2.6 million years ago when hominins decided to become meat eaters it was a
+  choice for survival, I decided to turn vegan because it's not about our
+  survival anymore.
+slug: veganism
+media: /assets/images/veganism.webp"
 ---
 
 ## I No Longer Steal From Nature

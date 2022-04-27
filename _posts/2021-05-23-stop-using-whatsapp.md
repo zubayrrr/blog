@@ -1,12 +1,13 @@
 ---
-title: Stop using WhatsApp and switch to privacy friendly alternatives.
-date: "2021-05-23"
-tags: ["privacy", "whatsapp"]
+title: Stop using WhatsApp switch to privacy friendly alternatives.
+date: 2021-05-23
+tags:
+  - privacy
+  - whatsapp
+description: Some useful links to checkout to understand why you need to stop using
+  WhatsApp and siwtch to privacy friendly alternatives.
+slug: stop-whatsapp-switch-privacy-friendly-alternatives
 ---
-
-# Resources
-
-Some useful links to checkout to understand why you need to stop using WhatsApp and siwtch to privacy friendly alternatives.
 
 ## Why you should stop using WhatsApp
 
