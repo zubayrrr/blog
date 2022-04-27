@@ -5493,7 +5493,7 @@ a.status-card.compact:hover {
   }
 
   img {
-    object-fit: cover;
+    object-fit: contain;
   }
 }
 
@@ -7417,8 +7417,13 @@ noscript {
 
 // custom css
 
-.tags {
-  margin-top: 5px !important;
+.status__tags {
+  margin-top: 15px !important;
+}
+
+.status__title {
+  color: rgba($primary-text-color, 0.7) !important;
+  font-size: 1.1rem;
 }
 
 .e-content {
