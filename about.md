@@ -6,7 +6,7 @@ author:
   handle: "admin" # admin handle
   url: "/" # admin profile url
   email: zubayrali@pm.me
-  permalink: "/about/"
+permalink: "/about/"
 ---
 
 I am Zubayr Ali, a 22 year old Web Developer from Hyderabad, India.  

@@ -18,13 +18,14 @@ defaults:
     scope:
       path: ""
     values:
-      bio: "My bio  \n
-        This is a new line"
+      bio: "My tiny island on the WWW \n
+      Where I post musings, opinions, code, how-tos.
+      "
       fields: # a table of info about the bio, like for other links
-        - name: "Homepage"
-          content: "[this content will not wrap, see](https://ethanmcbloxxer.github.io/)"
-        - name: "this"
-          content: "supports markdown"
+        - name: "Noetic Noggin"
+          content: "[wiki.zubayrali.in](https://wiki.zubayrali.in)"
+        - name: "Github"
+          content: "[github.com/zubayrrr](https://github.com/zubayrrr)"
       author:
         name: Zubayr Ali # your name
         handle: "admin" # handle to be shown aside name, ends in @website.name
@@ -34,8 +35,6 @@ defaults:
         path: "/assets/images/avatar.png" # primary avatar
         circle: false # is the avatar a circle?
       banner: "/assets/images/ffflux.svg" # background banner
-      role: Custom Role
-
 # Files
 manifest: false # a manifest.webmanifest file for Google devices (please specify URL if it exists)
 browserconfig: false # a browserconfig.xml file for Microsoft devices (please specify URL if it exists)
