@@ -64,7 +64,7 @@ layout: default
 											<bdi>
 												<strong class="display-name__html p-name">{{ page.author.name }}</strong>
 											</bdi>
-											<span class=display-name__account style="color: #606984">@{{ page.author.handle }}@{{ site.host }}</span>
+											<span class=display-name__account style="color: #606984">{{ page.author.handle }}@{{ site.host }}</span>
 										</span>
 									</div>
 								</div>
@@ -117,15 +117,16 @@ layout: default
 
 								<!-- Posts -->
 								<div class="status__content">
-									<div class=e-content>
+									<a class=e-content  href="{{ post.url | relative_url }}">
 										{% if post.truncate %}
 											{% assign truncate = page.truncate %}
 											{{ post.content | truncatewords: truncate }}
 											{% assign truncate = nil %}
 										{% else %}
-										<a href="{{ post.url | relative_url }}" style="font-size: 1.2rem;">{{ post.title }}</a> <br />	
+										<span style="font-size: 1.1rem;">{{ post.title }}</span>	
 										{% endif %}
-										</div>
+									</a>
+									 <br />
 										{% for tag in post.tags %}
 											<a href="{{ '/tags/' | append: "#" | append: tag | relative_url }}" style="color: #9baec8">#{{ tag }}</a>
 										{% endfor %}
