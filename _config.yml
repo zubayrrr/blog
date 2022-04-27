@@ -1,0 +1,29 @@
+url: "zubayrrr.github.io/jekyll-theme-mastodon" # NOTICE THE ABSENCE OF A TRAILING SLASH
+baseurl: "/jekyll-theme-mastodon" # `social` or `mastodon`, for example (NOTICE THE PREFIXING SLASH)
+
+remote_theme: EthanMcBloxxer/jekyll-theme-mastodon@main
+plugins:
+  - jekyll-remote-theme
+
+defaults:
+  # If there is content here then place everything below after that content. Don't replace anything.
+  - scope:
+      path: "" # for each file
+    values:
+      author:
+        name: Some Author # your name
+        handle: "admin" # handle to be shown aside name, ends in @website.name
+        url: "/" # where users go when they click your profile (/ means the root of the site)
+      avatar:
+        path: "https://dummyimage.com/500x500/000/fff.png"
+        circle: true
+      bio: "This is my newer bio"
+      banner: "/assets/banner.png"
+      fields:
+        - name: "This is a feed item"
+          content: "This can be anything"
+        - name: "But,"
+          content: "it can also be [links](https://example.com/)"
+      admin: true
+      moderator: true
+      role: Another Cool Role
