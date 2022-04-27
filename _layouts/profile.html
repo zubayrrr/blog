@@ -25,7 +25,7 @@ layout: default
 						<div class="counter active">
 							<span class="u-url u-uid">
 								<span class=counter-number>{%- for post in site.posts -%}{% if post.author.handle == page.author.handle %}{% assign var = var | plus: 1 %}{% endif %}{%- endfor -%}{{ var | default: "0" }}</span>
-								<span class=counter-label>Toots</span>
+								<span class=counter-label>Posts</span>
 							</span>
 						</div>
 					</div>
