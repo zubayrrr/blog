@@ -75,7 +75,7 @@ layout: default
 											{{ content | truncatewords: truncate }}
 											{% assign truncate = nil %}
 										{% else %}
-											<!-- {{ content }} -->
+											{{ content }}
 										{% endif %}
 										{% for tag in post.tags %}
 											<a href="{{ '/tags/' | append: "#" | append: tag | relative_url }}" style="color: #9baec8">#{{ tag }}</a>
@@ -114,6 +114,8 @@ layout: default
 										</span>
 									</div>
 								</div>
+
+								<!-- Posts -->
 								<div class="status__content">
 									<div class=e-content>
 										{% if post.truncate %}
@@ -121,7 +123,7 @@ layout: default
 											{{ post.content | truncatewords: truncate }}
 											{% assign truncate = nil %}
 										{% else %}
-											{{ post.content }}
+											<!-- {{ post.content }} -->
 										{% endif %}
 										{% for tag in post.tags %}
 											<a href="{{ '/tags/' | append: "#" | append: tag | relative_url }}" style="color: #9baec8">#{{ tag }}</a>
