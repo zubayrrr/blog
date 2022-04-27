@@ -109,7 +109,7 @@ layout: default
 														<strong class="display-name__html p-name">{{ page.author.name }}</strong>
 													</bdi>
 												</a>
-												<span class=display-name__account>@{{ page.author.handle }}@{{ site.host }}</span>
+												<span class=display-name__account>{{ page.author.handle }}@{{ site.host }}</span>
 											</span>
 										</span>
 									</div>
@@ -123,7 +123,7 @@ layout: default
 											{{ post.content | truncatewords: truncate }}
 											{% assign truncate = nil %}
 										{% else %}
-										<span style="font-size: 1.1rem;">{{ post.title }}</span>	
+										<span>{{ post.title }}</span>	
 										{% endif %}
 									</a>
 									 <br />
