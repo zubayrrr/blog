@@ -1,6 +1,7 @@
 ---
 title: About author
 users: 1
+layout: about
 author:
   name: Zubayr Ali # admin name
   handle: "admin" # admin handle
