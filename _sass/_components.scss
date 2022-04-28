@@ -7424,8 +7424,10 @@ noscript {
 
 .status__title {
   color: $primary-text-color !important;
+}
 
-  &:hover {
+.status__content:hover {
+  .status__title {
     text-decoration: underline;
   }
 }

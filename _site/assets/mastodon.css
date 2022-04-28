@@ -7688,8 +7688,9 @@ noscript {
 
 .status__title {
   color: #ffffff !important; }
-  .status__title:hover {
-    text-decoration: underline; }
+
+.status__content:hover .status__title {
+  text-decoration: underline; }
 
 .e-content {
   text-decoration: none !important; }
