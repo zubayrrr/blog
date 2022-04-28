@@ -479,10 +479,10 @@ article .__ns__pop2top {
       .grid-4 .column-0 {
         grid-column: 1; }
       .grid-4 .column-1 {
-        grid-column: 1;
+        grid-column: 1/5;
         grid-row: 3; }
       .grid-4 .column-2 {
-        grid-column: 1;
+        grid-column: 1/5;
         grid-row: 2; }
       .grid-4 .column-3 {
         grid-column: 1;
