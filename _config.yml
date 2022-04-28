@@ -32,7 +32,7 @@ defaults:
         url: "/" # your profile page file
         email: "zubayrali@pm.me" # real email
       avatar:
-        path: "/assets/images/avatar.png" # primary avatar
+        path: "/assets/images/avatar.gif" # primary avatar
         circle: false # is the avatar a circle?
       banner: "/assets/images/ffflux.svg" # background banner
 # Files

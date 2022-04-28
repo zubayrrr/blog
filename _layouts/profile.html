@@ -21,12 +21,12 @@ layout: default
 					</h1>
 				</div>
 				<div class=public-account-header__tabs__tabs>
-					<div class=details-counters>
-						<div class="counter active">
-							<span class="u-url u-uid">
+					<div class=details-counters >
+						<div class="counter active" >
+							<a class="u-url u-uid" href="/tags" style="text-decoration: none; cursor: pointer;" title="Posts by tag">
 								<span class=counter-number>{%- for post in site.posts -%}{% if post.author.handle == page.author.handle %}{% assign var = var | plus: 1 %}{% endif %}{%- endfor -%}{{ var | default: "0" }}</span>
 								<span class=counter-label>Posts</span>
-							</span>
+							</a>
 						</div>
 					</div>
 					<div class=spacer></div>
@@ -124,8 +124,7 @@ layout: default
 											{{ post.content | truncatewords: truncate }}
 											{% assign truncate = nil %}
 										{% else %}
-										<p class="status__title">{{ post.title }}</p>
-										<p>{{ post.description }}</p>
+										<p><span class="status__title">{{ post.title }}</span><br />{{ post.description }}</p>
 										{% endif %}
 									</div>
 										{% if post.media %}

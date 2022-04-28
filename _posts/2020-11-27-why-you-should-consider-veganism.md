@@ -13,7 +13,7 @@ description:
   choice for survival, I decided to turn vegan because it's not about our
   survival anymore.
 slug: veganism
-media: /assets/images/veganism.webp"
+media: /assets/images/veganism.webp
 ---
 
 ## I No Longer Steal From Nature

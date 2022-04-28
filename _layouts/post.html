@@ -35,9 +35,18 @@ layout: default
           </span>
         </div>
         <div class="status__content">
-          {{ content }} {% for tag in page.tags %}
+         <h1>{{page.title}}</h1>
+          {{ content }} 
+         	<div class="status__tags">
+									{% for tag in page.tags %}
+									<a href="{{ '/tags/' | append: "#" | append: tag | relative_url }}" style="color: #9baec8;">#{{ tag }}</a>
+									{% endfor %}
+									</div>
+         
+          <!-- {% for tag in page.tags %}
           <span style="color: #9baec8">#{{ tag }}</span>
-          {% endfor %}
+          {% endfor %} -->
+          	
         </div>
         {% if page.media %}
         <div data-component="MediaGallery">
@@ -76,11 +85,13 @@ layout: default
         </div>
       </div>
     </div>
+    
   </div>
-  {% if site.amplitude %} {% assign key = site.amplitude %} {% include
+  
+  <!-- {% if site.amplitude %} {% assign key = site.amplitude %} {% include
   analytics.html key=key %}
   <script type="text/javascript">
     amplitude.getInstance().logEvent("Post Click", {title: "{{ page.title }}"{% if page.tags %}, tag: "{{ page.tags[0] }}"{% endif %}});
   </script>
-  {% assign key = nil %} {% endif %}
+  {% assign key = nil %} {% endif %} -->
 </div>

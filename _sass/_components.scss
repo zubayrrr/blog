@@ -852,6 +852,7 @@
   ul {
     list-style-type: disc;
   }
+
   ul ul {
     list-style-type: circle;
   }
@@ -7423,7 +7424,10 @@ noscript {
 
 .status__title {
   color: $primary-text-color !important;
-  font-size: 1.1rem;
+
+  &:hover {
+    text-decoration: underline;
+  }
 }
 
 .e-content {
